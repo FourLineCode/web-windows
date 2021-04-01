@@ -32,7 +32,7 @@ yarn
 ### Run in production mode
 
 ```
-yarn build && yarn start
+yarn start
 ```
 
 ### Run in development mode
