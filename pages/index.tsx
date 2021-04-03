@@ -1,14 +1,13 @@
-import { AnimatePresence, motion } from 'framer-motion';
 import React, { useState } from 'react';
-import wallpaper from '../assets/w10-wallpaper.jpg';
+import { AnimatePresence, motion } from 'framer-motion';
 
-export function App() {
+export default function Index() {
 	const [showStartMenu, setShowStartMenu] = useState(false);
 
 	return (
 		<main
 			className='flex flex-col w-screen h-screen bg-gray-700'
-			style={{ backgroundImage: `url(${wallpaper})`, backgroundPosition: 'center' }}
+			style={{ backgroundImage: `url("./wallpaper.jpg")`, backgroundPosition: 'center' }}
 		>
 			<div className='flex-1'></div>
 			<div className='w-full h-12 bg-gray-900'>
@@ -16,7 +15,7 @@ export function App() {
 					onClick={() => setShowStartMenu((prev) => !prev)}
 					className='relative flex justify-center w-12 h-full py-3 transition duration-150 hover:bg-gray-800'
 				>
-					<img src='../assets/w10-logo.png' alt='start-menu' />
+					<img src='/logo.png' alt='start-menu' />
 					<AnimatePresence>
 						{showStartMenu && (
 							<motion.div
