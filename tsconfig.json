@@ -30,7 +30,8 @@
 		"downlevelIteration": true,
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
-		"typeRoots": ["./node_modules/@types"]
+		"typeRoots": ["./node_modules/@types"],
+		"baseUrl": "."
 	},
 	"include": ["./src"],
 	"exclude": ["./node_modules"]
