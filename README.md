@@ -4,7 +4,7 @@
 
 # Stack (Typescript)
 
--   [Vite](https://vitejs.dev/)
+-   [Next.js](https://nextjs.org/)
 -   [React](https://reactjs.org)
 -   [Tailwind CSS](https://tailwindcss.com/)
 -   [Framer Motion](https://www.framer.com/motion/)
@@ -32,7 +32,7 @@ yarn
 ### Run in production mode
 
 ```
-yarn start
+yarn build && yarn start
 ```
 
 ### Run in development mode
